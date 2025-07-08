@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import myImage from '../image.jpeg';
+import myImage from '../image.webp';
 import '../Home.css';
 
 export default function Home() {

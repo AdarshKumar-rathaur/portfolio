@@ -23,7 +23,7 @@ export default function Navbar(props) {
                                     Projects
                                 </Link>
                                 <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" to="/">Adding Soon</Link></li>
+                                    <li><Link className="dropdown-item" to="/notes">Notes</Link></li>
                                     <li><Link className="dropdown-item" to="/">Adding Soon</Link></li>
                                     <li><hr className="dropdown-divider"/></li>
                                     <li><Link className="dropdown-item" to="/">Adding Soon</Link></li>

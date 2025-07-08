@@ -8,7 +8,7 @@ export default function About() {
                 <p>
                     Hi! I'm <strong>Adarsh Singh</strong>, a passionate and curious Computer Science student at <strong>ABES Engineering College, Ghaziabad</strong>.
                     I specialize in <strong>front-end web development</strong> and enjoy turning ideas into real-world applications using
-                    <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code>, and <code>React</code>. I'm constantly exploring new technologies
+                    <code> HTML</code>, <code>CSS</code>, <code>JavaScript</code>, and <code>React</code>. I'm constantly exploring new technologies
                     and love building projects that solve real problems or showcase creativity.
                 </p>
                 <p>
