@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# 🌐 Personal Portfolio Website – Adarsh Singh
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio!  
+This is my **first-ever web development project**, built to introduce myself, display my skills, and share the projects I'm working on.
 
-## Available Scripts
+## 🚀 Live Site  
+🔗 [adarshkumar-rathaur.github.io/portfolio](https://adarshkumar-rathaur.github.io/portfolio)
 
-In the project directory, you can run:
+## 📌 What's Included
 
-### `npm start`
+- **Home Page** – Quick intro and profile photo  
+- **About Me** – My learning journey and goals  
+- **Projects** – Currently includes a functional Notes App  
+- **Skills** – A list of technologies I’ve started working with  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🧰 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React, HTML5, CSS3 (Bootstrap), JavaScript  
+- **Deployment**: GitHub Pages
 
-### `npm test`
+## 🧠 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Responsive dark theme layout  
+- Notes App (add and store notes using localStorage)  
+- About Me section with clean typography  
+- Navigation menu with expandable Projects tab
 
-### `npm run build`
+## 📂 Projects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📝 Notes App  
+A simple note-taking app built using React and localStorage.  
+It allows users to:
+- Add notes with a title and content
+- View stored notes in the browser
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> More projects coming soon!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎯 My Goal
 
-### `npm run eject`
+I’m just beginning my journey into the world of web development and programming. This portfolio is my first step toward learning real-world skills, building useful tools, and eventually growing into a full-stack developer.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📬 Let's Connect
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- GitHub: [AdarshKumar-rathaur](https://github.com/AdarshKumar-rathaur)  
+- LinkedIn: [Your LinkedIn URL here](#) *(Update this)*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ✅ To-Do List
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [ ] Add more real-world projects  
+- [ ] Improve the Notes App (editing and deleting notes)  
+- [ ] Add contact form or footer with social links  
+- [ ] Refine design and animations  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks for visiting!  
+**Feel free to ⭐ this repository or fork it if you'd like to build your own!**
