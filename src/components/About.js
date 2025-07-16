@@ -3,8 +3,8 @@ import React from 'react'
 export default function About() {
     return (
         <div className="container my-5">
-            <div className="p-4 bg-dark rounded shadow-sm">
-                <h2 className="mb-4">👋 About Me</h2>
+            <div className="p-4 rounded shadow-sm">
+                <h2 className="mb-4 text-center">👋 About Me</h2>
                 <p>
                     Hi! I'm <strong>Adarsh Singh</strong>, a passionate and curious Computer Science student at <strong>ABES Engineering College, Ghaziabad</strong>.
                     I specialize in <strong>front-end web development</strong> and enjoy turning ideas into real-world applications using
@@ -13,7 +13,7 @@ export default function About() {
                 </p>
                 <p>
                     Currently in my first year, I’ve already started building projects like a <strong>Library Manager</strong> and a
-                    <strong>Tech Daily</strong> news app using APIs — and I’m just getting started!
+                    <strong> Tech Daily</strong> news app using APIs — and I’m just getting started!
                 </p>
                 <p>
                     My goal is to grow into a <strong>full-stack developer</strong> who not only writes clean, efficient code but also

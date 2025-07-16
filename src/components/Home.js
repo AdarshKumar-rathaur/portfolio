@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import myImage from './images/image.webp';
 import Connect from './Connect';
-import '../Home.css';
 
 export default function Home() {
 
@@ -38,20 +37,16 @@ export default function Home() {
         // eslint-disable-next-line
     }, []);
 
-    const imageStyle = {
-        width: '150px',
-        height: 'auto'
-    }
     return (
         <>
             <Connect />
             <section id="hero">
-                <div className='text-center'>
-                    <img src={myImage} style={imageStyle} className="rounded" alt="..." />
-                </div>
                 <div className="hero-text">
-                    <h1>Hi, I'm <span className="highlight">Adarsh Singh</span></h1>
+                    <h1>Hi! I'm <span className="highlight">Adarsh Singh</span></h1>
                     <p><span id="typed-text"></span></p>
+                </div>
+                <div className='text-center'>
+                    <img src={myImage} id="myPic" alt="MyImage" />
                 </div>
             </section>
         </>
