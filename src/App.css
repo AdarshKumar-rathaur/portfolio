@@ -1,7 +1,15 @@
 body {
   background-image: url('./components/images/background.jpg');
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  body{
+    background-attachment: scroll;
+  }
 }
 
 .logoElem {
@@ -10,10 +18,11 @@ body {
   height: auto;
 }
 
-.logo{
-  width: 50px;
-  height: auto;
+.logo {
+  width: 45px;
+  height: 45px;
 }
+
 #hero {
   display: flex;
   justify-content: space-evenly;

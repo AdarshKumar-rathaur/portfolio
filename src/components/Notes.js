@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
-import Textarea from './Notes-Components/Textarea'
-import NavbarNotes from './Notes-Components/NavbarNotes'
-import NoteCard from './Notes-Components/NoteCard'
+import React, { useState } from 'react';
+import './Notes.css';
+import Textarea from './Notes-Components/Textarea';
+import NavbarNotes from './Notes-Components/NavbarNotes';
+import NoteCard from './Notes-Components/NoteCard';
 
 export default function Notes() {
 
@@ -62,7 +63,7 @@ export default function Notes() {
     }
 
     return (
-        <>
+        <div>
             <NavbarNotes searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
             <div className="container my-3">
                 <h1>Welcome to Notes</h1>
@@ -75,6 +76,6 @@ export default function Notes() {
                 )))}
                 </div>
             </div>
-        </>
+        </div>
     )
 }
