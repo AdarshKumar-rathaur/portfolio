@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Notes.css';
 import Textarea from './Notes-Components/Textarea';
 import NavbarNotes from './Notes-Components/NavbarNotes';
 import NoteCard from './Notes-Components/NoteCard';

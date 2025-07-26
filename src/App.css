@@ -1,50 +1,48 @@
-body {
-  background-image: url('./components/images/background.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+body{
+    /* background-color: #42273B; */
+    background-image: url(./components/images/background.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
-@media (max-width: 768px) {
-  body{
-    background-attachment: scroll;
-  }
+i {
+    padding-right: 2px;
 }
 
 .logoElem {
-  margin: 5px 3px;
-  width: 32px;
-  height: auto;
+    margin: 5px 3px;
+    width: 32px;
+    height: auto;
 }
 
 .logo {
-  width: 45px;
-  height: 45px;
+    width: 45px;
+    height: 45px;
 }
 
 #hero {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 5rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem 2rem;
 }
 
 .hero-text h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 .hero-text p {
-  color: #A42CD6;
-  font-size: 1.5rem;
+    color: #9EE493;
+    font-size: 1.5rem;
 }
 
 .highlight {
-  color: #A42CD6;
+    color: #9EE493;
 }
 
 #myPic {
-  width: 150px;
-  height: auto;
-  border-radius: 10%;
+    width: 150px;
+    height: auto;
+    border-radius: 10%;
 }

@@ -7,13 +7,13 @@ import Notes from "./components/Notes";
 
 function App() {
   return (
-    <> 
+    <div>
       <Routes>
         <Route exact path="/" element={<><Navbar title="Portfolio" searchbar={false} /><Home /></>} />
         <Route exact path="/about" element={<><Navbar title="Portfolio" searchbar={false} /><About /></>} />
         <Route exact path="/notes" element={<Notes />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
