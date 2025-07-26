@@ -32,6 +32,8 @@ A simple note-taking app built using React and localStorage.
 It allows users to:
 - Add notes with a title and content
 - View stored notes in the browser
+- Update and delete existing notes
+- Search for notes
 
 > More projects coming soon!
 
@@ -42,13 +44,12 @@ I’m just beginning my journey into the world of web development and programmin
 ## 📬 Let's Connect
 
 - GitHub: [AdarshKumar-rathaur](https://github.com/AdarshKumar-rathaur)  
-- LinkedIn: [Your LinkedIn URL here](#) *(Update this)*
+- LinkedIn: [Adarsh Singh]https://www.linkedin.com/in/adarsh-singh-11a795315/
 
 ## ✅ To-Do List
 
-- [ ] Add more real-world projects  
-- [ ] Improve the Notes App (editing and deleting notes)  
-- [ ] Add contact form or footer with social links  
+- [ ] Add more real-world projects 
+- [ ] Add contact form or footer 
 - [ ] Refine design and animations  
 
 ---
