@@ -39,13 +39,13 @@ export default function Home() {
 
     return (
         <>
-            <Connect />
             <section id="hero">
                 <div className="hero-text">
-                    <h1>Hi! I'm <span className="highlight">Adarsh Singh</span></h1>
-                    <p><span id="typed-text"></span></p>
+                    <div className='intro'>Hi! I'm <span className="highlight">Adarsh Singh</span></div>
+                    <div className='intro2'><span id="typed-text"></span></div>
+                    <Connect />
                 </div>
-                <div className='text-center'>
+                <div className='pic'>
                     <img src={myImage} id="myPic" alt="MyImage" />
                 </div>
             </section>
