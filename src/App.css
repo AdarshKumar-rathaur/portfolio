@@ -1,105 +1,186 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Inter", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1b1c22;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1b1c22;
 }
 
 #hero {
-    margin-top: 4rem;
-    display: flex;
-    flex-direction: column-reverse;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .hero-text {
-    display: grid;
-    row-gap: 0.5rem;
-    overflow: hidden;
+  display: grid;
+  row-gap: 0.25rem;
+  overflow: hidden;
 }
 
 .intro {
-    text-align: center;
-    font-size: 3rem;
+  text-align: center;
+  font-size: 3rem;
 }
 
 .highlight {
-    color: #9EE493;
+  color: #9ee493;
 }
 
 .intro2 {
-    text-align: center;
-    height: 3rem;
-    color: #9EE493;
-    font-size: 2rem;
+  text-align: center;
+  height: 3rem;
+  color: #9ee493;
+  font-size: 2rem;
 }
 
 .logoElem {
-    padding: 5px 3px;
-    width: 32px;
-    height: auto;
+  padding: 5px 3px;
+  width: 32px;
+  height: auto;
 }
 
 .pic {
-    text-align: center;
+  text-align: center;
 }
 
-#myPic {
-    width: 10rem;
-    height: auto;
-    border-radius: 10%;
+.myPic {
+  width: 10rem;
+  height: auto;
+  border-radius: 10%;
 }
 
 .logo {
-    width: 45px;
-    height: 45px;
+  width: 45px;
+  height: 45px;
 }
 
 .back-vid {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .container {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .card {
-    background-color: rgba(236, 78, 32, 0.8);
-    transform: none;
-    box-shadow: 0 4px 8px 0 rgba(51, 52, 87, 0.2);
-    transition: 0.5s;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 5px 0 rgba(255, 255, 255, 0.1);
 }
 
 .card-title {
-    color: #000000;
-}
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px 0 rgba(51, 52, 87, 0.2);
+  color: #eb790f;
 }
 
+.heading {
+  display: flex;
+  justify-content: center;
+}
+.underline {
+  position: relative;
+  display: inline-block;
+}
+.underline::after {
+  content: "";
+  background: linear-gradient(to right, #cd00a1, #29abcd);
+  border-radius: 10px;
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+}
+
+/* border */
+
+/* .border::after,
+.border::before {
+  --angle: 0deg;
+  content: "";
+  position: absolute;
+  inset: -5px;
+  background: conic-gradient(
+    from var(--angle),
+    #d11149,
+    #e68aff,
+    #ff4800,
+    #11ebff,
+    #cdff58,
+    #d11149
+  );
+  z-index: -2;
+}
+
+.border::after {
+  animation: glowing-border 3.5s linear infinite;
+}
+
+.border::before {
+  z-index: -3;
+  filter: blur(20px);
+  opacity: 0.7;
+}
+
+.border::before {
+  animation: blur-effect 3.5s linear infinite,
+    glowing-border 3.5s linear infinite;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes glowing-border {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}
+
+@keyframes blur-effect {
+  from {
+    filter: blur(20px);
+  }
+  to {
+    filter: blur(19px);
+  }
+} */
+
 @media (max-aspect-ratio: 16/9) {
-    .back-vid {
-        width: auto;
-        height: 100%;
-    }
+  .back-vid {
+    width: auto;
+    height: 100%;
+  }
 }
 
 @media (min-aspect-ratio: 16/9) {
-    .back-vid {
-        width: 100%;
-        height: auto;
-    }
+  .back-vid {
+    width: 100%;
+    height: auto;
+  }
 }
